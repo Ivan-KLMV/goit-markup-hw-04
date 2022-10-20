@@ -26,10 +26,10 @@
           >
           <ul class="pages-links">
             <li class="item">
-              <a href="./index.html" class="link">Студія</a>
+              <a href="./index.html" class="link current">Студія</a>
             </li>
             <li class="item">
-              <a href="./portfolio.html" class="link current">Портфоліо</a>
+              <a href="./portfolio.html" class="link">Портфоліо</a>
             </li>
             <li class="item">
               <a href="" class="link">Контакти</a>
@@ -39,11 +39,16 @@
         <ul class="contact-list">
           <li class="item">
             <a href="mailto:info@devstudio.com" class="link contact"
-              >info@devstudio.com</a
-            >
+              ><svg class="icon mail" width="16" height="12">
+                <use href="/images/sprite.svg#icon-mail"></use>
+              </svg>
+              info@devstudio.com
+            </a>
           </li>
           <li class="item">
             <a href="tel:+380961111111" class="link contact"
+              ><svg class="icon phone" width="10" height="16">
+                <use href="/images/sprite.svg#icon-phone"></use></svg
               >+38 096 111 11 11</a
             >
           </li>
@@ -149,32 +154,79 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <a href="./index.html" class="logo"
-          >Web<span class="logo bottom">Studio</span></a
-        >
-        <address class="address">
-          <ul class="list">
-            <li class="item">
+        <div>
+          <a href="./index.html" class="logo"
+            >Web<span class="logo bottom">Studio</span></a
+          >
+          <address class="address">
+            <ul class="list">
+              <li class="item">
+                <a
+                  href="https://goo.gl/maps/kp1o5WoaLA6S5hVg9"
+                  target="_blank"
+                  rel="noreferrel noopener"
+                  class="link"
+                  >м. Київ, пр-т Лесі Українки, 26</a
+                >
+              </li>
+              <li class="item">
+                <a href="mailto:info@devstudio.com" class="link address"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="item">
+                <a href="tel:+380961111111" class="link address"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div>
+          <h2 class="title">Приєднуйтесь</h2>
+          <ul class="social-links">
+            <li>
               <a
-                href="https://goo.gl/maps/kp1o5WoaLA6S5hVg9"
+                href="https://www.instagram.com/"
                 target="_blank"
                 rel="noreferrel noopener"
-                class="link"
-                >м. Київ, пр-т Лесі Українки, 26</a
-              >
+                class="link-icon"
+                ><svg class="social-icon" width="22" height="22">
+                  <use href="./images/sprite.svg#icon-instagram"></use></svg
+              ></a>
             </li>
-            <li class="item">
-              <a href="mailto:info@devstudio.com" class="link address"
-                >info@devstudio.com</a
-              >
+            <li>
+              <a
+                href="https://twitter.com/"
+                target="_blank"
+                rel="noreferrel noopener"
+                class="link-icon"
+                ><svg class="social-icon" width="22" height="22">
+                  <use href="./images/sprite.svg#icon-twitter"></use></svg
+              ></a>
             </li>
-            <li class="item">
-              <a href="tel:+380961111111" class="link address"
-                >+38 096 111 11 11</a
-              >
+            <li>
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noreferrel noopener"
+                class="link-icon"
+                ><svg class="social-icon" width="22" height="22">
+                  <use href="./images/sprite.svg#icon-facebook"></use></svg
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                rel="noreferrel noopener"
+                class="link-icon"
+                ><svg class="social-icon" width="22" height="22">
+                  <use href="./images/sprite.svg#icon-linkedin"></use></svg
+              ></a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
