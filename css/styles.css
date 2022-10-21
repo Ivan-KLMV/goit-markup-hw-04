@@ -52,7 +52,7 @@ ul {
   padding: 0;
 }
 
-.link {
+a {
   display: block;
   color: inherit;
   text-decoration: none;
@@ -87,7 +87,7 @@ ul {
       rgba(47, 48, 58, 0.4)
     ),
     url(../images/hero-bcg.jpg);
-  max-width: 100%;
+  max-width: 1600px;
 }
 
 .hero-title {
@@ -403,7 +403,8 @@ ul {
   gap: 30px;
 }
 
-.cards:hover {
+.cards > a:hover,
+.cards > a:focus {
   box-shadow: 1px 4px 6px 0px #00000029, 0px 4px 4px 0px #0000000f,
     0px 1px 1px 0px #0000001f;
 }
